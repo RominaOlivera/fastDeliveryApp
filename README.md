@@ -1,25 +1,25 @@
-# 🚀 Fast Delivery
+# Fast Delivery
 
 **Fast Delivery** is a food delivery eCommerce Android app built with **Kotlin**, **Jetpack Compose**, and **MVVM architecture**.  
 It allows users to browse food products by category, search by name, add items to a cart, place orders, and manage their profile, including editing their information and uploading a profile picture.
 
 ---
 
-## 📱 Features
+##  Features
 
-- 🔐 User login and registration (via external API)
-- 🏠 Home screen with product categories
-- 🔍 Search products by name
-- 🛒 Add products to cart
-- 📤 Submit orders from cart
-- 📦 View past orders in user profile
-- 👤 Editable user profile with full name, nationality, email
-- 📸 Upload profile picture via **camera or gallery** (stored in **Cloudinary**)
-- 🌓 Full support for **dark mode** and **light mode**
+-  User login and registration (via external API)
+-  Home screen with product categories
+-  Search products by name
+-  Add products to cart
+-  Submit orders from cart
+-  View past orders in user profile
+-  Editable user profile with full name, nationality, email
+-  Upload profile picture via **camera or gallery** (stored in **Cloudinary**)
+-  Full support for **dark mode** and **light mode**
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 ### Welcome Screen
 ![Welcome Screen](screenshots/welcome.png)
@@ -54,7 +54,7 @@ It allows users to browse food products by category, search by name, add items t
 ### Orders confirmation
 ![Orders Screen](screenshots/orderConfirm.png)
 
-## 🧠 Tech Stack
+## Tech Stack
 
 - **Language:** Kotlin
 - **UI:** Jetpack Compose
@@ -68,7 +68,7 @@ It allows users to browse food products by category, search by name, add items t
 
 ---
 
-## 🧩 Project Structure
+## Project Structure
 
 ```
 com.example.fastdelivery
@@ -92,13 +92,13 @@ com.example.fastdelivery
     - Editable fields: full name, nationality, email
     - Profile picture is uploaded to **Cloudinary**
     - Alert dialog allows the user to choose between:
-        - 📷 Take photo with camera
-        - 🖼️ Select from gallery
+        -  Take photo with camera
+        -  Select from gallery
     - Runtime permissions handled dynamically
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 The app includes unit tests for core modules using:
 
